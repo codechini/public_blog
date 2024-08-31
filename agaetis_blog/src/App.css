@@ -1,3 +1,4 @@
+@import "https://cdn.jsdelivr.net/npm/beercss@3.6.13/dist/cdn/beer.min.css";
 :root{
   --primary:#4a670b;
 --on-primary:#ffffff;
@@ -35,4 +36,43 @@
 --surface-container:#efeee6;
 --surface-container-high:#e9e8e1;
 --surface-container-highest:#e4e3db;
+}
+
+.hero{
+  padding: 0;
+  margin: 5px;
+  aspect-ratio: 21/6;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+  background-image: url('https://images.unsplash.com/photo-1716389941212-a6bc53add871?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.hero-image-text{
+  color: var(--on-primary);
+  mix-blend-mode: difference;
+  backdrop-filter: blur(3px);
+  z-index: 2;
+}
+img{
+  aspect-ratio: 21/6;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.desktop{
+  display: none;
+}
+.mobile{
+  display: flex;
+}
+@media (width > 768px) {
+  .desktop{
+    display: grid;
+  }
+  .mobile{
+    display: none;
+  }
 }
