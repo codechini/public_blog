@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <main className="responsive">
+        <h1 className="title">My Blog</h1>
         <BlogPost />
       </main>
 
