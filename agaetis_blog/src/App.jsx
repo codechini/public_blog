@@ -11,14 +11,33 @@ function App() {
       <nav className="top">
         <header className='responsive'>
           <nav>
-            <button className="small-round">Subscribe</button>
+            <a className="small-round">Subscribe</a>
             <h5 className="max center-align">pForbes</h5>
+            <span className="material-symbols-outlined">
+              search
+            </span>
             <button className="border small-round">Signup</button>
           </nav>
         </header>
       </nav>
       {/* mainse */}
       <main className="responsive">
+        <div className='responsive center-align middle-align'>
+          <nav className='scroll'>
+            <a href="">World</a>
+            <a href="">U.S</a>
+            <a href="">Technology</a>
+            <a href="">Design</a>
+            <a href="">Culture</a>
+            <a href="">Business</a>
+            <a href="">Politics</a>
+            <a href="">Opinion</a>
+            <a href="">Science</a>
+            <a href="">Health</a>
+            <a href="">Style</a>
+            <a href="">Travel</a>
+          </nav>
+        </div>
         <div className="hero">
           <div className="hero-image-text">
             <h1>This is a Title</h1>

@@ -37,6 +37,14 @@
 --surface-container-high:#e9e8e1;
 --surface-container-highest:#e4e3db;
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 
 .hero{
   padding: 0;

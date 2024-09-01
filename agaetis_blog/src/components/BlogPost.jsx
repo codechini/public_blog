@@ -9,6 +9,7 @@ const BlogPost = (props) => {
             <div className="padding">
               <a className="chip no-wave no-elevate" style={{ backgroundColor: props.color, color: "dimGrey" }}>{props.chip}</a>
               <h5>{props.title}</h5>
+              <small>{props.date}</small>
               <p>{props.content}</p>
               <nav>
                 <button className="border round fill">More</button>
