@@ -4,6 +4,7 @@ import BlogPost from './components/BlogPost';
 import Category from './components/Category';
 import Footer from './components/Footer';
 import FullBlog from './components/FullBlog';
+import Pagination from './components/Pagination';
 import BigData from './data.json';
 
 function App() {
@@ -74,6 +75,8 @@ function App() {
               <hr className="medium"></hr>
               <FullBlog />
               <FullBlog />
+              <div className="large-space"></div>
+              <Pagination />
             </div>
             <div className="s12 m4 13">
               <h2>About</h2>
@@ -92,7 +95,7 @@ function App() {
             </div>
           </div>
         </div>
-
+        {/* <Pagination /> */}
       </main>
       <footer>
         <Footer />
