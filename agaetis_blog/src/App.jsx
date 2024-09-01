@@ -1,6 +1,8 @@
 // import { useState } from 'react'
 import './App.css';
 import BlogPost from './components/BlogPost';
+import Footer from './components/Footer';
+import FullBlog from './components/FullBlog';
 import BigData from './data.json';
 
 function App() {
@@ -57,7 +59,8 @@ function App() {
         <div>
           <div className="grid small-space">
             <div className="s12 m8 13">
-              <BlogPost />
+              <FullBlog />
+              <FullBlog />
             </div>
             <div className="s12 m4 13">
               <h2>About</h2>
@@ -66,11 +69,11 @@ function App() {
               <h2>Articles</h2>
               {/* <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni suscipit iure quibusdam dolorem necessitatibus est ut.</h6> */}
               <div className="vertical left-align top-align">
-                <a href="" className='lime'>Lorem ipsum dolor sit amet</a>
+                <a href="" className=''>Lorem ipsum dolor sit amet</a>
                 <a href="">Lorem</a>
                 <a href="">Lorem ipsum dolor </a>
-                <a href="">Lorem ipsum dolor sit amet</a>
-                <a href="">Lorem ipsum dolor sit amet</a>
+                <a href="">Lorem ipsum dolor sit</a>
+                <a href="">Lorem </a>
                 <a href="">Lorem ipsum dolor sit amet</a>
               </div>
             </div>
@@ -78,7 +81,7 @@ function App() {
         </div>
 
       </main>
-
+      <Footer />
     </>
   )
 }
