@@ -1,0 +1,114 @@
+[
+  {
+    "id": "66d353e33c43f015cbe85678",
+    "featured": false,
+    "category": "Design",
+    "color":"hsl(231,100%,95%)",
+    "picture": "http://placehold.it/32x32",
+    "name": "Maricela Allen",
+    "email": "maricelaallen@iplax.com",
+    "title": "Nostrud quis tempor tempor dolor aliquip id.",
+    "content": "Aliquip et labore qui voluptate reprehenderit amet velit id minim non occaecat. Do ea ut tempor eiusmod anim amet voluptate tempor. Voluptate esse duis sit dolor aute non dolore.\r\n"
+  },
+  {
+    "id": "66d353e34267c54609f9ca78",
+    "featured": false,
+    "category": "Technology",
+    "color":"hsl(340,100%,95%)",
+    "picture": "http://placehold.it/32x32",
+    "name": "Katherine Arnold",
+    "email": "katherinearnold@iplax.com",
+    "title": "Dolor incididunt laboris officia nulla ex ea irure ea Lorem enim ea.",
+    "content": "In elit pariatur velit irure aliquip ipsum velit laborum excepteur ipsum deserunt esse cillum. Magna eiusmod eiusmod nulla nisi qui occaecat exercitation Lorem culpa do ut. Aute enim reprehenderit est non deserunt consectetur proident est. Labore eiusmod enim tempor duis ex pariatur ipsum id est eu nisi ea consequat.\r\n"
+  },
+  {
+    "id": "66d353e3646118150a72606f",
+    "featured": true,
+    "category": "Nancy",
+    "picture": "http://placehold.it/32x32",
+    "name": "Rosemary Ray",
+    "email": "rosemaryray@iplax.com",
+    "title": "Pariatur anim reprehenderit ullamco voluptate velit nostrud irure veniam officia velit officia cupidatat et.",
+    "content": "Eu eu ex magna laborum. Excepteur reprehenderit consequat est amet et quis. Reprehenderit ut anim velit ipsum aute nisi nulla ipsum. Commodo et ipsum ullamco non veniam ipsum. Duis quis enim est est. Et minim cillum reprehenderit et nisi ea et. Sint dolore duis et duis dolore.\r\n"
+  },
+  {
+    "id": "66d353e3b86dea569cb9018d",
+    "featured": true,
+    "category": "Buchanan",
+    "picture": "http://placehold.it/32x32",
+    "name": "Araceli Alexander",
+    "email": "aracelialexander@iplax.com",
+    "title": "Aute exercitation pariatur sunt fugiat non reprehenderit quis consectetur in proident minim incididunt velit sint.",
+    "content": "Est pariatur magna ipsum aute qui veniam sint anim amet. Aute aute velit sint eu. Non veniam aliqua culpa consectetur officia nulla tempor aliqua quis nisi tempor qui ipsum. Aute sint cupidatat enim nostrud id culpa quis qui officia ipsum cupidatat. Mollit nulla nostrud nulla ipsum nostrud commodo.\r\n"
+  },
+  {
+    "id": "66d353e3fb2379d80b2df874",
+    "featured": false,
+    "category": "Head",
+    "picture": "http://placehold.it/32x32",
+    "name": "Alana Avery",
+    "email": "alanaavery@iplax.com",
+    "title": "Pariatur laborum magna veniam ad veniam labore tempor anim fugiat cupidatat nulla.",
+    "content": "Fugiat enim velit in eiusmod voluptate adipisicing dolore ex excepteur laboris cillum. Duis voluptate reprehenderit cillum ea nulla ipsum quis. Consequat magna proident aute velit ea dolore id velit cillum ipsum tempor id ad. Incididunt eu minim dolor eu incididunt. Pariatur duis sit irure nulla. Labore veniam labore nostrud voluptate ut laborum dolore anim tempor.\r\n"
+  },
+  {
+    "id": "66d353e37ea4f6439e13c992",
+    "featured": false,
+    "category": "Johnson",
+    "picture": "http://placehold.it/32x32",
+    "name": "Lola Kelley",
+    "email": "lolakelley@iplax.com",
+    "title": "Anim eiusmod ad est duis velit.",
+    "content": "Est id magna do eu do cillum incididunt consectetur mollit amet dolore fugiat deserunt eu. Veniam et cillum sit dolor aute reprehenderit id. Proident ex qui fugiat sit mollit nostrud. Ad dolore velit commodo veniam consectetur voluptate dolor amet ex ullamco. Sint irure ut reprehenderit cillum. Consectetur culpa nisi nostrud est voluptate commodo.\r\n"
+  },
+  {
+    "id": "66d353e3b173bdcf79a1e448",
+    "featured": true,
+    "category": "Juanita",
+    "picture": "http://placehold.it/32x32",
+    "name": "Griffin Hale",
+    "email": "griffinhale@iplax.com",
+    "title": "Dolore dolor eu dolor tempor deserunt nulla cupidatat laboris pariatur fugiat incididunt aliquip sit minim.",
+    "content": "Cupidatat nulla laboris ad et aute elit aliquip voluptate exercitation. Minim irure nostrud pariatur mollit exercitation ipsum incididunt reprehenderit nostrud anim tempor duis. Velit esse do duis id nostrud adipisicing. Eiusmod laborum sint non consectetur aliqua. Esse aliquip culpa esse in deserunt veniam pariatur mollit exercitation minim quis. Aute proident et consectetur exercitation incididunt magna commodo sint. Proident aute sunt ut et officia elit.\r\n"
+  },
+  {
+    "id": "66d353e3850432cdb87cf405",
+    "featured": true,
+    "category": "Cooley",
+    "picture": "http://placehold.it/32x32",
+    "name": "Navarro Decker",
+    "email": "navarrodecker@iplax.com",
+    "title": "Ipsum amet ipsum pariatur ea laboris labore culpa eu ut fugiat dolore ut aliquip.",
+    "content": "Minim minim ea excepteur laborum sit adipisicing elit ex enim cillum excepteur. Labore consequat ex excepteur tempor labore occaecat voluptate. Sunt anim eu dolore anim ad irure anim aute occaecat cupidatat proident sint officia. Fugiat consectetur laborum et voluptate reprehenderit. Incididunt nisi do amet occaecat incididunt sit laboris enim.\r\n"
+  },
+  {
+    "id": "66d353e36adec2cc678d3fe7",
+    "featured": true,
+    "category": "Karen",
+    "picture": "http://placehold.it/32x32",
+    "name": "Hendrix Glenn",
+    "email": "hendrixglenn@iplax.com",
+    "title": "Labore laboris officia aliquip pariatur ex velit ipsum dolor aliquip laboris amet deserunt cillum sint.",
+    "content": "Eu irure fugiat aliqua tempor eiusmod dolore Lorem ut pariatur dolor tempor dolor. Id velit anim anim do et nisi ipsum culpa in occaecat consectetur fugiat laboris ullamco. Deserunt anim deserunt adipisicing Lorem pariatur mollit. Magna amet fugiat aute excepteur nulla amet esse magna.\r\n"
+  },
+  {
+    "id": "66d353e33d7df6645335d28f",
+    "featured": false,
+    "category": "Rosanna",
+    "picture": "http://placehold.it/32x32",
+    "name": "Parks Carlson",
+    "email": "parkscarlson@iplax.com",
+    "title": "Eiusmod ad ullamco magna excepteur velit ex minim aute velit.",
+    "content": "Eu sunt culpa mollit ea. Magna quis veniam Lorem velit commodo voluptate elit nostrud reprehenderit dolor proident nostrud laborum. Id officia nulla proident commodo veniam do quis do enim officia. Reprehenderit quis exercitation qui sint laboris eiusmod aliquip id ut.\r\n"
+  },
+  {
+    "id": "66d353e3b4b217b5cd5f3ace",
+    "featured": true,
+    "category": "Mendez",
+    "picture": "http://placehold.it/32x32",
+    "name": "Welch Aguirre",
+    "email": "welchaguirre@iplax.com",
+    "title": "Reprehenderit ex do sint anim elit amet commodo elit veniam ut aliqua mollit.",
+    "content": "Veniam sit quis anim ullamco commodo cillum adipisicing sunt eiusmod dolore quis esse et. Et quis est ut ad mollit ea ut. Do ut enim ad adipisicing laborum ex minim commodo. Eu esse occaecat velit id. Deserunt do Lorem magna laboris voluptate laboris ut. Culpa labore et qui adipisicing.\r\n"
+  }
+]

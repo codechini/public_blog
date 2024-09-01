@@ -1,5 +1,5 @@
 
-const BlogPost = () => {
+const BlogPost = (props) => {
   return (
     <>
       <article className="no-padding">
@@ -7,15 +7,16 @@ const BlogPost = () => {
 
           <div className="s6">
             <div className="padding">
-              <a className="chip fill">Suggestion</a>
-              <h5>Title</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a className="chip no-wave no-elevate" style={{ backgroundColor: props.color, color: "dimGrey" }}>{props.chip}</a>
+              <h5>{props.title}</h5>
+              <p>{props.content}</p>
               <nav>
-                <button className="border round fill">Button</button>
+                <button className="border round fill">More</button>
               </nav>
             </div>
           </div>
           <div className="s6">
+
             <svg viewBox="600 500 300 300" className="responsive fill">
               <rect fill="#ff7700" width="1600" height="900"></rect>
               <polygon fill="#cc0000" points="957 450 539 900 1396 900"></polygon>
@@ -33,9 +34,9 @@ const BlogPost = () => {
             </svg>
           </div>
         </div>
-      </article>
+      </article >
     </>
   )
 }
 
-export default BlogPost
+export default BlogPost;

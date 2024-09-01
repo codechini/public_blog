@@ -41,10 +41,10 @@
 .hero{
   padding: 0;
   margin: 5px;
-  aspect-ratio: 21/6;
+  aspect-ratio: 1/1;
   object-fit: cover;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   border-radius: 12px;
   /* filter: blur(2px);
@@ -57,10 +57,19 @@
   backdrop-filter: blur(3px);
   z-index: 2;
 }
+a{
+  color: var(--primary);
+}
+a:hover{
+  color: var(--inverse-primary);
+}
 img{
   aspect-ratio: 21/6;
   object-fit: cover;
   border-radius: 4px;
+}
+section{
+  height: 100%;
 }
 .desktop{
   display: none;
@@ -69,10 +78,26 @@ img{
   display: flex;
 }
 @media (width > 768px) {
+  .hero{
+    padding-left: 45px;
+    aspect-ratio: 21/6;
+  }
   .desktop{
     display: grid;
   }
   .mobile{
     display: none;
   }
+}
+@media (768px >= width > 400px) {
+  .hero{
+  padding-left: 0;
+  aspect-ratio: 3/2;
+}
+}
+@media (width <= 430px) {
+  .hero{
+  padding-left: 0;
+  aspect-ratio: 1/1;
+}
 }
