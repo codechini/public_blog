@@ -11,9 +11,9 @@ function App() {
       <nav className="top">
         <header className='responsive'>
           <nav>
-            <button className="small-round">Button</button>
+            <button className="small-round">Subscribe</button>
             <h5 className="max center-align">pForbes</h5>
-            <button className="border small-round">Button</button>
+            <button className="border small-round">Signup</button>
           </nav>
         </header>
       </nav>
@@ -59,6 +59,8 @@ function App() {
         <div>
           <div className="grid small-space">
             <div className="s12 m8 13">
+              <h1><i>From the FireHose</i></h1>
+              <hr className="medium"></hr>
               <FullBlog />
               <FullBlog />
             </div>
