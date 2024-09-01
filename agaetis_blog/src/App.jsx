@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 import './App.css';
 import BlogPost from './components/BlogPost';
+import Category from './components/Category';
 import Footer from './components/Footer';
 import FullBlog from './components/FullBlog';
 import BigData from './data.json';
@@ -22,26 +23,15 @@ function App() {
       </nav>
       {/* mainse */}
       <main className="responsive">
-        <div className='responsive center-align middle-align'>
-          <nav className='scroll'>
-            <a href="">World</a>
-            <a href="">U.S</a>
-            <a href="">Technology</a>
-            <a href="">Design</a>
-            <a href="">Culture</a>
-            <a href="">Business</a>
-            <a href="">Politics</a>
-            <a href="">Opinion</a>
-            <a href="">Science</a>
-            <a href="">Health</a>
-            <a href="">Style</a>
-            <a href="">Travel</a>
-          </nav>
-        </div>
+        <Category />
+
         <div className="hero">
           <div className="hero-image-text">
             <h1>This is a Title</h1>
             <h5>This is a Subtitle</h5>
+            <small>
+              <a className='hero-image-text' href="">Continue ...</a>
+            </small>
           </div>
         </div>
         {/* <img src='' alt="" /> */}
@@ -78,14 +68,14 @@ function App() {
         <div>
           <div className="grid small-space">
             <div className="s12 m8 13">
-              <h1><i>From the FireHose</i></h1>
+              <h2>From the FireHose</h2>
               <hr className="medium"></hr>
               <FullBlog />
               <FullBlog />
             </div>
             <div className="s12 m4 13">
               <h2>About</h2>
-              <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni suscipit iure quibusdam dolorem necessitatibus est ut.</h6>
+              <h6>Lorem ipsum dolor sit amet sectetu adipisicing elit. Qui magni suscipit iure quibusdam dolorem itatibus est ut.</h6>
               <div className="small-space"></div>
               <h2>Articles</h2>
               {/* <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni suscipit iure quibusdam dolorem necessitatibus est ut.</h6> */}
