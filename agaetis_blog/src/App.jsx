@@ -14,9 +14,11 @@ function App() {
           <nav>
             <a className="small-round">Subscribe</a>
             <h5 className="max center-align">pForbes</h5>
-            <span className="material-symbols-outlined">
-              search
-            </span>
+            <a href="">
+              <span className="material-symbols-outlined">
+                search
+              </span>
+            </a>
             <button className="border small-round">Signup</button>
           </nav>
         </header>
@@ -92,7 +94,9 @@ function App() {
         </div>
 
       </main>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }
