@@ -6,3 +6,9 @@
   <li>In your terminal <b>npm i</b> </li>
   <li>In your terminal <b>npm run dev</b> </li>
 </ul>
+<h2>and</h2>
+<ul>
+  <li>There is Server.js file which will run and display at port 5000</li>
+  <li>npm i express axios</li>
+  <li>node server.js</b> </li>
+</ul>
