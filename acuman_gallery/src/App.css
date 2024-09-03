@@ -72,9 +72,10 @@ a:hover{
   color: var(--inverse-primary);
 }
 img{
-  aspect-ratio: 21/6;
-  object-fit: cover;
+  aspect-ratio: 3/2;
+  /* object-fit: cover; */
   border-radius: 4px;
+  /* width: 100%; */
 }
 section{
   height: 100%;
@@ -83,6 +84,9 @@ section{
   display: none;
 }
 .mobile{
+  display: flex;
+}
+.mobile-search{
   display: flex;
 }
 @media (width > 768px) {
@@ -95,6 +99,9 @@ section{
   }
   .mobile{
     display: none;
+  }
+  .mobile-search{
+    display: grid;
   }
 }
 @media (768px >= width > 400px) {

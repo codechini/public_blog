@@ -6,7 +6,7 @@ const Footer = () => {
           <small className="">Blog template build with React by <a target="_blank" href="https://codechini.netlify.app/">@chinmay</a></small>
         </div>
         <div>
-          <a href="">Back to top</a>
+          <a href="/">Back to top</a>
         </div>
       </div>
     </>

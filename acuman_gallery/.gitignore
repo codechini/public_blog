@@ -17,6 +17,8 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+*.env
+.env.[mode].local   # only loaded in specified mode, ignored by git
 *.suo
 *.ntvs*
 *.njsproj
